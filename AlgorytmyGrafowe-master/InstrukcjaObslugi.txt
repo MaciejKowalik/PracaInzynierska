@@ -1,0 +1,63 @@
+Program uruchamiany jest z wiersza poleceń.
+Po zbudowaniu solucji, w miejscu, gdzie znajduje się .exe projektu (AlgorytmyGrafowe\x64\Debug) należy umieścić plik z danymi dotyczącymi
+wprowadzanego grafu.
+
+Dane do programu mogą wprowadzone być za pomocą listy sąsiedztwa lub macierzy.
+
+Format pliku z danymi:
+a) lista sąsiedztwa:
+
+<liczba wierzcholkow>
+<wierzcholek1> <wierzcholek2> <droga_od_w1_do_w2>
+<wierzcholek1> <wierzcholek2> <droga_od_w1_do_w2>
+<wierzcholek1> <wierzcholek2> <droga_od_w1_do_w2>
+itd.
+
+np.:
+
+3
+1 2 5
+1 3 3
+2 1 1
+3 2 3
+
+b) macierz sąsiedztwa (dodatkowa kolumna i wiersz reprezentująca wierzchołek zerowy):
+
+Przedstawiono ten sam graf co wyżej - kolejne kolumny zawierają drogi dla odpowiednich wierzchołków.
+
+3
+- - - -
+- 0 1 -
+- 5 0 3
+- 3 2 0
+
+Aby uruchomić program z wiersza poleceń należy wprowadzić odpowiednia ilość parametrów, w poprawnej formie (przełączniki mogą wystąpić
+w dowolnej kolejności)
+
+<plik_wykonywalny> <nazwa_algorytmu> <przelacznik -i> <plik_wejsciowy> <przelacznik -s> <sposob_ladowania>
+lub
+<plik_wykonywalny> <nazwa_algorytmu> <przelacznik -s> <sposob_ladowania> <przelacznik -i> <plik_wejsciowy> 
+
+Poprawne nazwy algorytmów to kolejno:
+BellmanFord
+Djikstra
+FloydWarshall
+BFS
+DFS
+
+Nazwa pliku z danymi musi być podana wraz z rozszerzeniem .txt np:
+dane.txt
+
+Po przełączniku -s nalezy podać sposób ładowania danych tj:
+lista
+macierz
+
+Przykładowe poprawne wprowadzenie parametrów do wiersza poleceń:
+
+AlgorytmyGrafowe.exe BFS -i dane.txt -s macierz
+
+W przypadku niepoprawnie wprowadzonych danych, w konsoli ujrzymy odpowiedni komunikat.
+Gdy wszystko przebiegło poprawnie, informacja o wykonaniu algorytmu również pojawi się w konsoli.
+
+Pliki wynikowe pojawiają się w tym samym folderze.
+
