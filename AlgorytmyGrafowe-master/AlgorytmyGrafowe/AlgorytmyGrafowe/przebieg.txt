@@ -1,0 +1,18 @@
+Iteracja zerowa 
+0 10 - - 5 
+---------------------------------------------
+Znaleziono polaczenie do wierzcholka nr: 2 przez wierzcholek nr: 5 wynoszaca: 8
+Znaleziono polaczenie do wierzcholka nr: 3 przez wierzcholek nr: 2 wynoszaca: 9
+Znaleziono polaczenie do wierzcholka nr: 4 przez wierzcholek nr: 3 wynoszaca: 13
+Znaleziono polaczenie do wierzcholka nr: 4 przez wierzcholek nr: 5 wynoszaca: 7
+---------------------------------------------
+Iteracja nr: 1
+0 8 9 7 5 
+Nie znaleziono nowych polaczen
+---------------------------------------------
+Iteracja nr: 2
+0 8 9 7 5 
+Nie znaleziono nowych polaczen
+---------------------------------------------
+Iteracja nr: 3
+0 8 9 7 5 

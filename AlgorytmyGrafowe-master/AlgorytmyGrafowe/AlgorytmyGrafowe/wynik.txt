@@ -1,0 +1,2 @@
+Odleglosci od pierwszego wierzcho³ka:
+D[1] = 0	D[2] = 8	D[3] = 9	D[4] = 7	D[5] = 5	

@@ -1,0 +1,11 @@
+﻿  Djikstra.cpp
+E:\DOWNLOAD\PRACA INŻYNIERSKA\AlgorytmyGrafowe-master\AlgorytmyGrafowe\AlgorytmyGrafowe\Djikstra.cpp(28,59): error C3867: 'Djikstra::sortujWierzcholki': non-standard syntax; use '&' to create a pointer to member
+E:\DOWNLOAD\PRACA INŻYNIERSKA\AlgorytmyGrafowe-master\AlgorytmyGrafowe\AlgorytmyGrafowe\Djikstra.cpp(28,2): error C2672: 'make_heap': no matching overloaded function found
+E:\DOWNLOAD\PRACA INŻYNIERSKA\AlgorytmyGrafowe-master\AlgorytmyGrafowe\AlgorytmyGrafowe\Djikstra.cpp(28,59): error C2780: 'void std::make_heap(_RanIt,_RanIt)': expects 2 arguments - 3 provided
+E:\visual 2019\VC\Tools\MSVC\14.24.28314\include\algorithm(2732): message : see declaration of 'std::make_heap'
+E:\DOWNLOAD\PRACA INŻYNIERSKA\AlgorytmyGrafowe-master\AlgorytmyGrafowe\AlgorytmyGrafowe\Djikstra.cpp(34,60): error C3867: 'Djikstra::sortujWierzcholki': non-standard syntax; use '&' to create a pointer to member
+E:\DOWNLOAD\PRACA INŻYNIERSKA\AlgorytmyGrafowe-master\AlgorytmyGrafowe\AlgorytmyGrafowe\Djikstra.cpp(34,3): error C2672: 'make_heap': no matching overloaded function found
+E:\DOWNLOAD\PRACA INŻYNIERSKA\AlgorytmyGrafowe-master\AlgorytmyGrafowe\AlgorytmyGrafowe\Djikstra.cpp(34,60): error C2780: 'void std::make_heap(_RanIt,_RanIt)': expects 2 arguments - 3 provided
+E:\visual 2019\VC\Tools\MSVC\14.24.28314\include\algorithm(2732): message : see declaration of 'std::make_heap'
+  Uruchom.cpp
+  Generating Code...
